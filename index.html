@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صوت الجبل | نفكر، نتحاور، ونبادر</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Tahoma,Arial,sans-serif;
+  background:#f7f4ee;
+  color:#24352b;
+  line-height:1.8;
+}
+
+header{
+  background:#173d2a;
+  color:white;
+  padding:18px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.logo{
+  font-size:25px;
+  font-weight:bold;
+}
+
+.logo span{
+  color:#d8b56b;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin:0 8px;
+  font-size:14px;
+}
+
+.hero{
+  padding:90px 7%;
+  background:linear-gradient(135deg,#173d2a,#315d43);
+  color:white;
+  min-height:520px;
+  display:flex;
+  align-items:center;
+}
+
+.hero-inner{
+  max-width:760px;
+}
+
+.badge{
+  display:inline-block;
+  border:1px solid #d8b56b;
+  padding:5px 14px;
+  border-radius:30px;
+  color:#f2d58f;
+  margin-bottom:18px;
+}
+
+h1{
+  font-size:55px;
+  margin-bottom:8px;
+}
+
+.hero h2{
+  font-size:24px;
+  color:#f2d58f;
+  margin-bottom:18px;
+}
+
+.hero p{
+  font-size:19px;
+  color:#eef4ef;
+}
+
+.buttons{
+  margin-top:28px;
+}
+
+.btn{
+  display:inline-block;
+  padding:11px 22px;
+  border-radius:8px;
+  text-decoration:none;
+  margin-left:8px;
+  font-weight:bold;
+}
+
+.primary{
+  background:#d8b56b;
+  color:#173d2a;
+}
+
+.secondary{
+  border:1px solid white;
+  color:white;
+}
+
+section{
+  padding:65px 7%;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:35px;
+}
+
+.title h2{
+  font-size:32px;
+}
+
+.title p{
+  color:#66746b;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:25px;
+  border-radius:14px;
+  box-shadow:0 5px 18px #00000010;
+  border:1px solid #e8e3d9;
+}
+
+.card h3{
+  margin:10px 0;
+  color:#173d2a;
+}
+
+.icon{
+  font-size:32px;
+}
+
+.event{
+  background:#173d2a;
+  color:white;
+  border-radius:16px;
+  padding:30px;
+}
+
+.event h3{
+  color:#f2d58f;
+  font-size:25px;
+}
+
+.about{
+  background:#ebe7dc;
+}
+
+.about-box{
+  max-width:850px;
+  margin:auto;
+  text-align:center;
+  font-size:19px;
+}
+
+.cta{
+  background:#d8b56b;
+  text-align:center;
+  color:#173d2a;
+}
+
+.cta h2{
+  font-size:32px;
+}
+
+footer{
+  background:#10291d;
+  color:#dfe8e1;
+  padding:28px 7%;
+  text-align:center;
+  font-size:14px;
+}
+
+@media(max-width:750px){
+  nav{
+    display:none;
+  }
+
+  h1{
+    font-size:42px;
+  }
+
+  .hero{
+    padding:65px 7%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">صوت <span>الجبل</span></div>
+
+  <nav>
+    <a href="#about">من نحن</a>
+    <a href="#issues">قضايا الجبل</a>
+    <a href="#events">الندوات</a>
+    <a href="#articles">المقالات</a>
+    <a href="#join">شارك معنا</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero-inner">
+
+    <span class="badge">منصة ثقافية وشبابية</span>
+
+    <h1>صوت الجبل</h1>
+
+    <h2>نفكر، نتحاور، ونبادر.</h2>
+
+    <p>
+      منصة تنطلق من الجبل لتفتح فضاءً للحوار حول الإنسان
+      والمجتمع والثقافة والتنمية، وتحول الأفكار إلى لقاءات
+      ومبادرات واقعية.
+    </p>
+
+    <div class="buttons">
+      <a class="btn primary" href="#events">اكتشف الأنشطة</a>
+      <a class="btn secondary" href="#join">شارك معنا</a>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="issues">
+
+  <div class="title">
+    <h2>قضايا نناقشها</h2>
+    <p>مساحات للحوار حول القضايا التي تهم الإنسان الجبلي والمجتمع.</p>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="icon">🏔️</div>
+      <h3>قضايا الجبل</h3>
+      <p>الفقر والهشاشة والعزلة وتحديات التنمية في المناطق الجبلية.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎓</div>
+      <h3>التعليم والشباب</h3>
+      <p>التعليم والهجرة والبطالة وطموحات الشباب في العالم القروي.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏥</div>
+      <h3>الخدمات الأساسية</h3>
+      <p>الصحة والطرق والنقل والخدمات التي تحتاجها المناطق النائية.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">📜</div>
+      <h3>التاريخ والثقافة</h3>
+      <p>التاريخ المحلي والثقافة والذاكرة والتراث في المناطق الجبلية.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="events">
+
+  <div class="title">
+    <h2>الندوات واللقاءات</h2>
+    <p>من الفكرة إلى اللقاء، ومن النقاش إلى المبادرة.</p>
+  </div>
+
+  <div class="event">
+
+    <h3>ندوة: الهجرة القروية ومستقبل المناطق الجبلية</h3>
+
+    <p>
+      بين الفقر والهجرة وتحديات التنمية...
+      هل ما زال الجبل قادرًا على الاحتفاظ بشبابه؟
+    </p>
+
+    <p style="margin-top:12px">
+      📍 دمنات – أزيلال
+      <br>
+      📅 التاريخ يعلن لاحقًا
+    </p>
+
+  </div>
+
+</section>
+
+
+<section id="articles">
+
+  <div class="title">
+    <h2>مقالات وأفكار</h2>
+    <p>مساحة للكتابة والنقاش وتبادل وجهات النظر.</p>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>الجبل الذي يهاجر منه أبناؤه</h3>
+      <p>
+        قراءة في أسباب الهجرة القروية وآثارها على المجتمع المحلي.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>هل تستطيع التنمية أن توقف الهجرة؟</h3>
+      <p>
+        أسئلة حول التنمية وفرص الشباب ومستقبل القرى.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>الشباب الجبلي: من الهامش إلى المبادرة</h3>
+      <p>
+        كيف يمكن للشباب أن ينتقل من الشكوى إلى المشاركة والفعل.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="about" class="about">
+
+  <div class="about-box">
+
+    <div class="title">
+      <h2>من نحن؟</h2>
+    </div>
+
+    <h3>رضوان العروسي</h3>
+
+    <p>
+      مؤسس ومنسق منصة <strong>صوت الجبل</strong>،
+      طالب بمدينة الرباط.
+    </p>
+
+    <p style="margin-top:15px">
+      منصة شبابية تهدف إلى فتح فضاء للحوار والثقافة
+      واللقاءات والمبادرات، مع اهتمام خاص بقضايا المناطق
+      الجبلية والشباب.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section id="join" class="cta">
+
+  <h2>هل لديك فكرة؟ شارك معنا.</h2>
+
+  <p>
+    مقال، مبادرة، لقاء، ندوة أو فكرة تخدم المجتمع.
+  </p>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <p>© 2026 صوت الجبل — منصة ثقافية وشبابية</p>
+
+  <p>نفكر، نتحاور، ونبادر.</p>
+
+</footer>
+
+</body>
+</html>
